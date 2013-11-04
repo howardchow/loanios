@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[UIInfoViewController viewDidLoad]:UIInfoViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "txt_email.delegate">
+            </PersistentString>
+            <PersistentString
+               value = "txt_hkid.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[UIInfoViewController textField:shouldChangeCharactersInRange:replacementString:]:UIInfoViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "textField.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[UIImageViewController takeController:didCancelAfterAttempting:]:UIImageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "app.dict_img">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[UIInfoViewController textFieldDidEndEditing:]:UIInfoViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "app.dict_input">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NWForm postForm:image:completion:progress:]:NWForm.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "realURL">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[UIInfoViewController prepareForSegue:sender:]:UIInfoViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.refNum">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__25-[NWForm postForm:image:]_block_invoke:NWForm.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "image_nameCard">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AppDelegate application:didFinishLaunchingWithOptions:]:AppDelegate.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

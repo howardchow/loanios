@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "91635310180D279200B91ACC"
-               BuildableName = "SandBox112.app"
-               BlueprintName = "SandBox112"
-               ReferencedContainer = "container:SandBox112.xcodeproj">
+               BuildableName = "LoanAppClient.app"
+               BlueprintName = "LoanAppClient"
+               ReferencedContainer = "container:LoanAppClient.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "91635331180D279200B91ACC"
-               BuildableName = "SandBox112Tests.xctest"
-               BlueprintName = "SandBox112Tests"
-               ReferencedContainer = "container:SandBox112.xcodeproj">
+               BuildableName = "LoanAppClientTests.xctest"
+               BlueprintName = "LoanAppClientTests"
+               ReferencedContainer = "container:LoanAppClient.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "91635310180D279200B91ACC"
-            BuildableName = "SandBox112.app"
-            BlueprintName = "SandBox112"
-            ReferencedContainer = "container:SandBox112.xcodeproj">
+            BuildableName = "LoanAppClient.app"
+            BlueprintName = "LoanAppClient"
+            ReferencedContainer = "container:LoanAppClient.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "91635310180D279200B91ACC"
-            BuildableName = "SandBox112.app"
-            BlueprintName = "SandBox112"
-            ReferencedContainer = "container:SandBox112.xcodeproj">
+            BuildableName = "LoanAppClient.app"
+            BlueprintName = "LoanAppClient"
+            ReferencedContainer = "container:LoanAppClient.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "91635310180D279200B91ACC"
-            BuildableName = "SandBox112.app"
-            BlueprintName = "SandBox112"
-            ReferencedContainer = "container:SandBox112.xcodeproj">
+            BuildableName = "LoanAppClient.app"
+            BlueprintName = "LoanAppClient"
+            ReferencedContainer = "container:LoanAppClient.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

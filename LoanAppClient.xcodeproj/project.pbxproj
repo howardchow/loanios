@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91528F20181E13150031090B /* default_address.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91528F1F181E13150031090B /* default_address.jpg */; };
+		91528F22181E13320031090B /* default_hkid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91528F21181E13320031090B /* default_hkid.jpg */; };
+		91528F98181E56780031090B /* LoanApp.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91528F97181E56780031090B /* LoanApp.strings */; };
+		91528F9A181F54F60031090B /* default_nameCard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91528F99181F54F60031090B /* default_nameCard.jpg */; };
+		916222C7181110F600E6E790 /* UIConfirmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916222C6181110F600E6E790 /* UIConfirmViewController.m */; };
+		916222CA18162A4F00E6E790 /* UIProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916222C918162A4F00E6E790 /* UIProductViewController.m */; };
+		91635315180D279200B91ACC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91635314180D279200B91ACC /* Foundation.framework */; };
+		91635317180D279200B91ACC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91635316180D279200B91ACC /* CoreGraphics.framework */; };
+		91635319180D279200B91ACC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91635318180D279200B91ACC /* UIKit.framework */; };
+		9163531F180D279200B91ACC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9163531D180D279200B91ACC /* InfoPlist.strings */; };
+		91635321180D279200B91ACC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91635320180D279200B91ACC /* main.m */; };
+		91635325180D279200B91ACC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91635324180D279200B91ACC /* AppDelegate.m */; };
+		91635328180D279200B91ACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91635326180D279200B91ACC /* Main.storyboard */; };
+		9163532D180D279200B91ACC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9163532C180D279200B91ACC /* Images.xcassets */; };
+		91635334180D279200B91ACC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91635333180D279200B91ACC /* XCTest.framework */; };
+		91635335180D279200B91ACC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91635314180D279200B91ACC /* Foundation.framework */; };
+		91635336180D279200B91ACC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91635318180D279200B91ACC /* UIKit.framework */; };
+		9163533E180D279200B91ACC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9163533C180D279200B91ACC /* InfoPlist.strings */; };
+		91635340180D279200B91ACC /* SandBox112Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9163533F180D279200B91ACC /* SandBox112Tests.m */; };
+		91793DFB1817C94900C2A4C0 /* SensibleTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91793DF51817C6AE00C2A4C0 /* SensibleTableView.framework */; };
+		917E60F8182733C700911F7A /* serverIP.plist in Resources */ = {isa = PBXBuildFile; fileRef = 917E60F7182733C700911F7A /* serverIP.plist */; };
+		919A8800181FBBE1008B4D8E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919A87FF181FBBE1008B4D8E /* SystemConfiguration.framework */; };
+		919A8804181FBCAC008B4D8E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 919A8803181FBCAC008B4D8E /* Reachability.m */; };
+		919A880C18210DDA008B4D8E /* LoanType.plist in Resources */ = {isa = PBXBuildFile; fileRef = 919A880B18210DDA008B4D8E /* LoanType.plist */; };
+		91D46A071816599F00936761 /* UITermsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D46A061816599F00936761 /* UITermsViewController.m */; };
+		91EDC93B180FA65B00E0ADF4 /* UIInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EDC93A180FA65B00E0ADF4 /* UIInfoViewController.m */; };
+		91EDC93E180FB67000E0ADF4 /* NWForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EDC93D180FB67000E0ADF4 /* NWForm.m */; };
+		91EDC953180FB74E00E0ADF4 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EDC941180FB74E00E0ADF4 /* AFHTTPRequestOperation.m */; };
+		91EDC954180FB74E00E0ADF4 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EDC943180FB74E00E0ADF4 /* AFHTTPRequestOperationManager.m */; };
+		91EDC955180FB74E00E0ADF4 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EDC945180FB74E00E0ADF4 /* AFHTTPSessionManager.m */; };
+		91EDC956180FB74E00E0ADF4 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EDC948180FB74E00E0ADF4 /* AFNetworkReachabilityManager.m */; };
+		91EDC957180FB74E00E0ADF4 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EDC94A180FB74E00E0ADF4 /* AFSecurityPolicy.m */; };
+		91EDC958180FB74E00E0ADF4 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EDC94C180FB74E00E0ADF4 /* AFURLConnectionOperation.m */; };
+		91EDC959180FB74E00E0ADF4 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EDC94E180FB74E00E0ADF4 /* AFURLRequestSerialization.m */; };
+		91EDC95A180FB74E00E0ADF4 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EDC950180FB74E00E0ADF4 /* AFURLResponseSerialization.m */; };
+		91EDC95B180FB74E00E0ADF4 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EDC952180FB74E00E0ADF4 /* AFURLSessionManager.m */; };
+		91EDC95E180FD8C100E0ADF4 /* UIImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EDC95D180FD8C100E0ADF4 /* UIImageViewController.m */; };
+		91F687011818FD30002F9562 /* default_salary.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91F687001818FD30002F9562 /* default_salary.jpg */; };
+		91F6870718190373002F9562 /* UICompleteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F6870618190373002F9562 /* UICompleteViewController.m */; };
+		91F6870B181A0DC2002F9562 /* FDTakeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F6870A181A0DC2002F9562 /* FDTakeController.m */; };
+		91F6870D181A11EB002F9562 /* FDTake.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91F6870C181A11EB002F9562 /* FDTake.strings */; };
+		91FEBA521818D7B5002BF427 /* Validator.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FEBA511818D7B5002BF427 /* Validator.m */; };
+		91FEBA581818F512002BF427 /* selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 91FEBA571818F512002BF427 /* selected.png */; };
+		91FEBA5A1818F528002BF427 /* nonselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 91FEBA591818F528002BF427 /* nonselected.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91635337180D279200B91ACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91635309180D279200B91ACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91635310180D279200B91ACC;
+			remoteInfo = SandBox112;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91528F1F181E13150031090B /* default_address.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default_address.jpg; sourceTree = "<group>"; };
+		91528F21181E13320031090B /* default_hkid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default_hkid.jpg; sourceTree = "<group>"; };
+		91528F97181E56780031090B /* LoanApp.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = LoanApp.strings; sourceTree = "<group>"; };
+		91528F99181F54F60031090B /* default_nameCard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default_nameCard.jpg; sourceTree = "<group>"; };
+		916222C5181110F600E6E790 /* UIConfirmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIConfirmViewController.h; sourceTree = "<group>"; };
+		916222C6181110F600E6E790 /* UIConfirmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIConfirmViewController.m; sourceTree = "<group>"; };
+		916222C818162A4F00E6E790 /* UIProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIProductViewController.h; sourceTree = "<group>"; };
+		916222C918162A4F00E6E790 /* UIProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIProductViewController.m; sourceTree = "<group>"; };
+		91635311180D279200B91ACC /* LoanAppClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoanAppClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91635314180D279200B91ACC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		91635316180D279200B91ACC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		91635318180D279200B91ACC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9163531C180D279200B91ACC /* LoanAppClient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoanAppClient-Info.plist"; sourceTree = "<group>"; };
+		9163531E180D279200B91ACC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91635320180D279200B91ACC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91635322180D279200B91ACC /* LoanAppClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoanAppClient-Prefix.pch"; sourceTree = "<group>"; };
+		91635323180D279200B91ACC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		91635324180D279200B91ACC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		91635327180D279200B91ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9163532C180D279200B91ACC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		91635332180D279200B91ACC /* LoanAppClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoanAppClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91635333180D279200B91ACC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9163533B180D279200B91ACC /* LoanAppClientTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoanAppClientTests-Info.plist"; sourceTree = "<group>"; };
+		9163533D180D279200B91ACC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9163533F180D279200B91ACC /* SandBox112Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandBox112Tests.m; sourceTree = "<group>"; };
+		91793DF51817C6AE00C2A4C0 /* SensibleTableView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SensibleTableView.framework; path = "../../../code/STV 3.1.4 Lite/Static Frameworks/SensibleTableView.framework"; sourceTree = "<group>"; };
+		917E60F7182733C700911F7A /* serverIP.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = serverIP.plist; sourceTree = "<group>"; };
+		919A87FD181FB94F008B4D8E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		919A87FF181FBBE1008B4D8E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		919A8802181FBCAC008B4D8E /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		919A8803181FBCAC008B4D8E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		919A880B18210DDA008B4D8E /* LoanType.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LoanType.plist; sourceTree = "<group>"; };
+		91D46A051816599F00936761 /* UITermsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITermsViewController.h; sourceTree = "<group>"; };
+		91D46A061816599F00936761 /* UITermsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITermsViewController.m; sourceTree = "<group>"; };
+		91EDC939180FA65B00E0ADF4 /* UIInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIInfoViewController.h; sourceTree = "<group>"; };
+		91EDC93A180FA65B00E0ADF4 /* UIInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIInfoViewController.m; sourceTree = "<group>"; };
+		91EDC93C180FB67000E0ADF4 /* NWForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWForm.h; sourceTree = "<group>"; };
+		91EDC93D180FB67000E0ADF4 /* NWForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWForm.m; sourceTree = "<group>"; };
+		91EDC940180FB74E00E0ADF4 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		91EDC941180FB74E00E0ADF4 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		91EDC942180FB74E00E0ADF4 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		91EDC943180FB74E00E0ADF4 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		91EDC944180FB74E00E0ADF4 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		91EDC945180FB74E00E0ADF4 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		91EDC946180FB74E00E0ADF4 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		91EDC947180FB74E00E0ADF4 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		91EDC948180FB74E00E0ADF4 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		91EDC949180FB74E00E0ADF4 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		91EDC94A180FB74E00E0ADF4 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		91EDC94B180FB74E00E0ADF4 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		91EDC94C180FB74E00E0ADF4 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		91EDC94D180FB74E00E0ADF4 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		91EDC94E180FB74E00E0ADF4 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		91EDC94F180FB74E00E0ADF4 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		91EDC950180FB74E00E0ADF4 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		91EDC951180FB74E00E0ADF4 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		91EDC952180FB74E00E0ADF4 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		91EDC95C180FD8C100E0ADF4 /* UIImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageViewController.h; sourceTree = "<group>"; };
+		91EDC95D180FD8C100E0ADF4 /* UIImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageViewController.m; sourceTree = "<group>"; };
+		91F687001818FD30002F9562 /* default_salary.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default_salary.jpg; sourceTree = "<group>"; };
+		91F6870518190373002F9562 /* UICompleteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICompleteViewController.h; sourceTree = "<group>"; };
+		91F6870618190373002F9562 /* UICompleteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICompleteViewController.m; sourceTree = "<group>"; };
+		91F68709181A0DC2002F9562 /* FDTakeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FDTakeController.h; path = ../../../code/FDTake/FDTakeExample/FDTakeController.h; sourceTree = "<group>"; };
+		91F6870A181A0DC2002F9562 /* FDTakeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FDTakeController.m; path = ../../../code/FDTake/FDTakeExample/FDTakeController.m; sourceTree = "<group>"; };
+		91F6870C181A11EB002F9562 /* FDTake.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = FDTake.strings; sourceTree = "<group>"; };
+		91FEBA501818D7B5002BF427 /* Validator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Validator.h; sourceTree = "<group>"; };
+		91FEBA511818D7B5002BF427 /* Validator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Validator.m; sourceTree = "<group>"; };
+		91FEBA571818F512002BF427 /* selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selected.png; sourceTree = "<group>"; };
+		91FEBA591818F528002BF427 /* nonselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nonselected.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9163530E180D279200B91ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919A8800181FBBE1008B4D8E /* SystemConfiguration.framework in Frameworks */,
+				91793DFB1817C94900C2A4C0 /* SensibleTableView.framework in Frameworks */,
+				91635317180D279200B91ACC /* CoreGraphics.framework in Frameworks */,
+				91635319180D279200B91ACC /* UIKit.framework in Frameworks */,
+				91635315180D279200B91ACC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9163532F180D279200B91ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91635334180D279200B91ACC /* XCTest.framework in Frameworks */,
+				91635336180D279200B91ACC /* UIKit.framework in Frameworks */,
+				91635335180D279200B91ACC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91635308180D279200B91ACC = {
+			isa = PBXGroup;
+			children = (
+				919A8801181FBC8D008B4D8E /* Network */,
+				91F68708181A0CF2002F9562 /* FDTake */,
+				91EDC93F180FB6EF00E0ADF4 /* AFNetwork */,
+				9163531A180D279200B91ACC /* LoanAppClient */,
+				91635339180D279200B91ACC /* SandBox112Tests */,
+				91635313180D279200B91ACC /* Frameworks */,
+				91635312180D279200B91ACC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91635312180D279200B91ACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91635311180D279200B91ACC /* LoanAppClient.app */,
+				91635332180D279200B91ACC /* LoanAppClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91635313180D279200B91ACC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				919A87FF181FBBE1008B4D8E /* SystemConfiguration.framework */,
+				919A87FD181FB94F008B4D8E /* CFNetwork.framework */,
+				91793DF51817C6AE00C2A4C0 /* SensibleTableView.framework */,
+				91635314180D279200B91ACC /* Foundation.framework */,
+				91635316180D279200B91ACC /* CoreGraphics.framework */,
+				91635318180D279200B91ACC /* UIKit.framework */,
+				91635333180D279200B91ACC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9163531A180D279200B91ACC /* LoanAppClient */ = {
+			isa = PBXGroup;
+			children = (
+				91FEBA4F1818D7A1002BF427 /* util */,
+				91EDC95F180FDD5400E0ADF4 /* image */,
+				91635323180D279200B91ACC /* AppDelegate.h */,
+				91635324180D279200B91ACC /* AppDelegate.m */,
+				91635326180D279200B91ACC /* Main.storyboard */,
+				9163532C180D279200B91ACC /* Images.xcassets */,
+				9163531B180D279200B91ACC /* Supporting Files */,
+				91EDC939180FA65B00E0ADF4 /* UIInfoViewController.h */,
+				91EDC93A180FA65B00E0ADF4 /* UIInfoViewController.m */,
+				91EDC93C180FB67000E0ADF4 /* NWForm.h */,
+				91EDC93D180FB67000E0ADF4 /* NWForm.m */,
+				91EDC95C180FD8C100E0ADF4 /* UIImageViewController.h */,
+				91EDC95D180FD8C100E0ADF4 /* UIImageViewController.m */,
+				916222C5181110F600E6E790 /* UIConfirmViewController.h */,
+				916222C6181110F600E6E790 /* UIConfirmViewController.m */,
+				916222C818162A4F00E6E790 /* UIProductViewController.h */,
+				916222C918162A4F00E6E790 /* UIProductViewController.m */,
+				91D46A051816599F00936761 /* UITermsViewController.h */,
+				91D46A061816599F00936761 /* UITermsViewController.m */,
+				91F6870518190373002F9562 /* UICompleteViewController.h */,
+				91F6870618190373002F9562 /* UICompleteViewController.m */,
+				91528F97181E56780031090B /* LoanApp.strings */,
+				919A880B18210DDA008B4D8E /* LoanType.plist */,
+			);
+			name = LoanAppClient;
+			path = SandBox112;
+			sourceTree = "<group>";
+		};
+		9163531B180D279200B91ACC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9163531C180D279200B91ACC /* LoanAppClient-Info.plist */,
+				9163531D180D279200B91ACC /* InfoPlist.strings */,
+				91635320180D279200B91ACC /* main.m */,
+				91635322180D279200B91ACC /* LoanAppClient-Prefix.pch */,
+				917E60F7182733C700911F7A /* serverIP.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91635339180D279200B91ACC /* SandBox112Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9163533F180D279200B91ACC /* SandBox112Tests.m */,
+				9163533A180D279200B91ACC /* Supporting Files */,
+			);
+			path = SandBox112Tests;
+			sourceTree = "<group>";
+		};
+		9163533A180D279200B91ACC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9163533B180D279200B91ACC /* LoanAppClientTests-Info.plist */,
+				9163533C180D279200B91ACC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91793DFA1817C8F700C2A4C0 /* Sensible */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sensible;
+			sourceTree = "<group>";
+		};
+		919A8801181FBC8D008B4D8E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				919A8802181FBCAC008B4D8E /* Reachability.h */,
+				919A8803181FBCAC008B4D8E /* Reachability.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		91EDC93F180FB6EF00E0ADF4 /* AFNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				91EDC940180FB74E00E0ADF4 /* AFHTTPRequestOperation.h */,
+				91EDC941180FB74E00E0ADF4 /* AFHTTPRequestOperation.m */,
+				91EDC942180FB74E00E0ADF4 /* AFHTTPRequestOperationManager.h */,
+				91EDC943180FB74E00E0ADF4 /* AFHTTPRequestOperationManager.m */,
+				91EDC944180FB74E00E0ADF4 /* AFHTTPSessionManager.h */,
+				91EDC945180FB74E00E0ADF4 /* AFHTTPSessionManager.m */,
+				91EDC946180FB74E00E0ADF4 /* AFNetworking.h */,
+				91EDC947180FB74E00E0ADF4 /* AFNetworkReachabilityManager.h */,
+				91EDC948180FB74E00E0ADF4 /* AFNetworkReachabilityManager.m */,
+				91EDC949180FB74E00E0ADF4 /* AFSecurityPolicy.h */,
+				91EDC94A180FB74E00E0ADF4 /* AFSecurityPolicy.m */,
+				91EDC94B180FB74E00E0ADF4 /* AFURLConnectionOperation.h */,
+				91EDC94C180FB74E00E0ADF4 /* AFURLConnectionOperation.m */,
+				91EDC94D180FB74E00E0ADF4 /* AFURLRequestSerialization.h */,
+				91EDC94E180FB74E00E0ADF4 /* AFURLRequestSerialization.m */,
+				91EDC94F180FB74E00E0ADF4 /* AFURLResponseSerialization.h */,
+				91EDC950180FB74E00E0ADF4 /* AFURLResponseSerialization.m */,
+				91EDC951180FB74E00E0ADF4 /* AFURLSessionManager.h */,
+				91EDC952180FB74E00E0ADF4 /* AFURLSessionManager.m */,
+			);
+			name = AFNetwork;
+			sourceTree = "<group>";
+		};
+		91EDC95F180FDD5400E0ADF4 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				91528F99181F54F60031090B /* default_nameCard.jpg */,
+				91528F21181E13320031090B /* default_hkid.jpg */,
+				91528F1F181E13150031090B /* default_address.jpg */,
+				91F687001818FD30002F9562 /* default_salary.jpg */,
+				91FEBA591818F528002BF427 /* nonselected.png */,
+				91FEBA571818F512002BF427 /* selected.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		91F68708181A0CF2002F9562 /* FDTake */ = {
+			isa = PBXGroup;
+			children = (
+				91793DFA1817C8F700C2A4C0 /* Sensible */,
+				91F6870C181A11EB002F9562 /* FDTake.strings */,
+				91F68709181A0DC2002F9562 /* FDTakeController.h */,
+				91F6870A181A0DC2002F9562 /* FDTakeController.m */,
+			);
+			name = FDTake;
+			sourceTree = "<group>";
+		};
+		91FEBA4F1818D7A1002BF427 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				91FEBA501818D7B5002BF427 /* Validator.h */,
+				91FEBA511818D7B5002BF427 /* Validator.m */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91635310180D279200B91ACC /* LoanAppClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91635343180D279200B91ACC /* Build configuration list for PBXNativeTarget "LoanAppClient" */;
+			buildPhases = (
+				9163530D180D279200B91ACC /* Sources */,
+				9163530E180D279200B91ACC /* Frameworks */,
+				9163530F180D279200B91ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoanAppClient;
+			productName = SandBox112;
+			productReference = 91635311180D279200B91ACC /* LoanAppClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91635331180D279200B91ACC /* LoanAppClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91635346180D279200B91ACC /* Build configuration list for PBXNativeTarget "LoanAppClientTests" */;
+			buildPhases = (
+				9163532E180D279200B91ACC /* Sources */,
+				9163532F180D279200B91ACC /* Frameworks */,
+				91635330180D279200B91ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91635338180D279200B91ACC /* PBXTargetDependency */,
+			);
+			name = LoanAppClientTests;
+			productName = SandBox112Tests;
+			productReference = 91635332180D279200B91ACC /* LoanAppClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91635309180D279200B91ACC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Jeff Chau";
+				TargetAttributes = {
+					91635310180D279200B91ACC = {
+						DevelopmentTeam = H9UT9VP9QR;
+					};
+					91635331180D279200B91ACC = {
+						TestTargetID = 91635310180D279200B91ACC;
+					};
+				};
+			};
+			buildConfigurationList = 9163530C180D279200B91ACC /* Build configuration list for PBXProject "LoanAppClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				da,
+				de,
+				fr,
+				it,
+				ja,
+				ko,
+				nb,
+				pl,
+				"pt-PT",
+				ro,
+				ru,
+				sv,
+			);
+			mainGroup = 91635308180D279200B91ACC;
+			productRefGroup = 91635312180D279200B91ACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91635310180D279200B91ACC /* LoanAppClient */,
+				91635331180D279200B91ACC /* LoanAppClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9163530F180D279200B91ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9163532D180D279200B91ACC /* Images.xcassets in Resources */,
+				91F6870D181A11EB002F9562 /* FDTake.strings in Resources */,
+				917E60F8182733C700911F7A /* serverIP.plist in Resources */,
+				9163531F180D279200B91ACC /* InfoPlist.strings in Resources */,
+				91528F98181E56780031090B /* LoanApp.strings in Resources */,
+				91635328180D279200B91ACC /* Main.storyboard in Resources */,
+				91528F9A181F54F60031090B /* default_nameCard.jpg in Resources */,
+				91528F20181E13150031090B /* default_address.jpg in Resources */,
+				91FEBA5A1818F528002BF427 /* nonselected.png in Resources */,
+				919A880C18210DDA008B4D8E /* LoanType.plist in Resources */,
+				91528F22181E13320031090B /* default_hkid.jpg in Resources */,
+				91FEBA581818F512002BF427 /* selected.png in Resources */,
+				91F687011818FD30002F9562 /* default_salary.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91635330180D279200B91ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9163533E180D279200B91ACC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9163530D180D279200B91ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EDC958180FB74E00E0ADF4 /* AFURLConnectionOperation.m in Sources */,
+				91EDC953180FB74E00E0ADF4 /* AFHTTPRequestOperation.m in Sources */,
+				916222CA18162A4F00E6E790 /* UIProductViewController.m in Sources */,
+				91EDC956180FB74E00E0ADF4 /* AFNetworkReachabilityManager.m in Sources */,
+				91EDC95B180FB74E00E0ADF4 /* AFURLSessionManager.m in Sources */,
+				91F6870718190373002F9562 /* UICompleteViewController.m in Sources */,
+				91EDC959180FB74E00E0ADF4 /* AFURLRequestSerialization.m in Sources */,
+				91EDC95A180FB74E00E0ADF4 /* AFURLResponseSerialization.m in Sources */,
+				91D46A071816599F00936761 /* UITermsViewController.m in Sources */,
+				91635325180D279200B91ACC /* AppDelegate.m in Sources */,
+				919A8804181FBCAC008B4D8E /* Reachability.m in Sources */,
+				916222C7181110F600E6E790 /* UIConfirmViewController.m in Sources */,
+				91EDC93E180FB67000E0ADF4 /* NWForm.m in Sources */,
+				91EDC954180FB74E00E0ADF4 /* AFHTTPRequestOperationManager.m in Sources */,
+				91EDC957180FB74E00E0ADF4 /* AFSecurityPolicy.m in Sources */,
+				91EDC95E180FD8C100E0ADF4 /* UIImageViewController.m in Sources */,
+				91FEBA521818D7B5002BF427 /* Validator.m in Sources */,
+				91EDC93B180FA65B00E0ADF4 /* UIInfoViewController.m in Sources */,
+				91635321180D279200B91ACC /* main.m in Sources */,
+				91F6870B181A0DC2002F9562 /* FDTakeController.m in Sources */,
+				91EDC955180FB74E00E0ADF4 /* AFHTTPSessionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9163532E180D279200B91ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91635340180D279200B91ACC /* SandBox112Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91635338180D279200B91ACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91635310180D279200B91ACC /* LoanAppClient */;
+			targetProxy = 91635337180D279200B91ACC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9163531D180D279200B91ACC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9163531E180D279200B91ACC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		91635326180D279200B91ACC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91635327180D279200B91ACC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9163533C180D279200B91ACC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9163533D180D279200B91ACC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91635341180D279200B91ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		91635342180D279200B91ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91635344180D279200B91ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/JeffChau/code/STV\\ 3.1.4\\ Lite/Static\\ Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SandBox112/LoanAppClient-Prefix.pch";
+				INFOPLIST_FILE = "SandBox112/LoanAppClient-Info.plist";
+				PRODUCT_NAME = LoanAppClient;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		91635345180D279200B91ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/JeffChau/code/STV\\ 3.1.4\\ Lite/Static\\ Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SandBox112/LoanAppClient-Prefix.pch";
+				INFOPLIST_FILE = "SandBox112/LoanAppClient-Info.plist";
+				PRODUCT_NAME = LoanAppClient;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		91635347180D279200B91ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SandBox112.app/SandBox112";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SandBox112/SandBox112-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SandBox112Tests/LoanAppClientTests-Info.plist";
+				PRODUCT_NAME = LoanAppClientTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		91635348180D279200B91ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SandBox112.app/SandBox112";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SandBox112/SandBox112-Prefix.pch";
+				INFOPLIST_FILE = "SandBox112Tests/LoanAppClientTests-Info.plist";
+				PRODUCT_NAME = LoanAppClientTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9163530C180D279200B91ACC /* Build configuration list for PBXProject "LoanAppClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91635341180D279200B91ACC /* Debug */,
+				91635342180D279200B91ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91635343180D279200B91ACC /* Build configuration list for PBXNativeTarget "LoanAppClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91635344180D279200B91ACC /* Debug */,
+				91635345180D279200B91ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91635346180D279200B91ACC /* Build configuration list for PBXNativeTarget "LoanAppClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91635347180D279200B91ACC /* Debug */,
+				91635348180D279200B91ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91635309180D279200B91ACC /* Project object */;
+}

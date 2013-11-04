@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SandBox112.xcodeproj">
+      location = "self:LoanAppClient.xcodeproj">
    </FileRef>
 </Workspace>

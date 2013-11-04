@@ -9,10 +9,33 @@
 #import "AppDelegate.h"
 
 @implementation AppDelegate
+@synthesize dict_input;
+@synthesize dict_img;
+@synthesize appFile;
+@synthesize documentsDirectory;
+@synthesize selectedProduct;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    documentsDirectory = [paths objectAtIndex:0];
+    appFile = [documentsDirectory stringByAppendingPathComponent:@"user.dict"];
+    NSLog(@"User pref file : %@",appFile);
+    
+    dict_input = [[NSMutableDictionary alloc] initWithContentsOfFile:appFile];
+    if (dict_input == nil) {
+        dict_input = [[NSMutableDictionary alloc] init];
+    }
+    
+    dict_img = [[NSMutableDictionary alloc] init];
+    
+    //load image into dict_img
+    [self loadFromFile:@"hkid"];
+    [self loadFromFile:@"nameCard"];
+    [self loadFromFile:@"salary"];
+    [self loadFromFile:@"address"];
+    
     return YES;
 }
 							
@@ -26,6 +49,39 @@
 {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    
+    [dict_input writeToFile:appFile atomically:YES];
+    
+    for (NSString* dictkey in dict_img) {
+        [self writeToImgFile:dictkey];
+    }
+    
+}
+
+- (void)loadFromFile:(NSString *)key {
+
+    NSString *filename = [key stringByAppendingString:@".jpg"];
+    NSString *filepath = [documentsDirectory stringByAppendingPathComponent:filename];
+    UIImage *img;
+    
+    if ([[NSFileManager defaultManager] fileExistsAtPath:filepath]) {
+        img = [[UIImage alloc] initWithContentsOfFile:filepath];
+        [dict_img setObject:img forKey:key];
+    } /*else {
+        NSString *defaultname = [@"default_" stringByAppendingString:[key stringByAppendingString:@".jpg"]];
+        img = [UIImage imageNamed:defaultname];
+    }
+    [dict_img setObject:img forKey:key];
+    */
+    
+}
+
+- (void)writeToImgFile:(NSString *)key {
+    NSString *filename = [key stringByAppendingString:@".jpg"];
+    NSString *filepath = [documentsDirectory stringByAppendingPathComponent:filename];
+    NSData *imageData = UIImageJPEGRepresentation([dict_img objectForKey:key], 1.0);
+    [imageData writeToFile:filepath atomically:YES];
+    
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application

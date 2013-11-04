@@ -1,0 +1,11 @@
+/* 
+  LoanApp.strings
+  SandBox112
+
+  Created by Jeff Chau on 28/10/13.
+  Copyright (c) 2013 Jeff Chau. All rights reserved.
+*/
+"hkid" = "Photocopy of Identity";
+"nameCard" = "Name Card";
+"salary" = "Proof of Salary";
+"address" = "Proof of Address";"
